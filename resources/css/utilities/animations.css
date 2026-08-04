@@ -1,0 +1,235 @@
+/* =====================================================
+   FLOAT
+===================================================== */
+
+@keyframes float {
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-15px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+
+/* =====================================================
+   GLOW PULSE
+===================================================== */
+
+@keyframes glow{
+
+    from{
+
+        box-shadow:
+
+            0 0 5px var(--cyan),
+
+            0 0 10px var(--cyan);
+
+    }
+
+    to{
+
+        box-shadow:
+
+            0 0 15px var(--cyan),
+
+            0 0 40px var(--cyan);
+
+    }
+
+}
+
+
+/* =====================================================
+   FADE UP
+===================================================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes scan{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes glowPulse{
+    0%,100%{
+        text-shadow: 0 0 10px var(--cyan);
+    }
+    50%{
+        text-shadow: 0 0 25px var(--cyan);
+    }
+}
+
+@keyframes radarPulse{
+
+    0%{
+        transform:translate(-50%,-50%) scale(1);
+        box-shadow:
+            0 0 10px var(--cyan);
+    }
+
+    50%{
+        transform:translate(-50%,-50%) scale(1.4);
+        box-shadow:
+            0 0 25px var(--cyan),
+            0 0 45px var(--cyan);
+    }
+
+    100%{
+        transform:translate(-50%,-50%) scale(1);
+        box-shadow:
+            0 0 10px var(--cyan);
+    }
+
+}
+
+@keyframes radarRing{
+
+    0%{
+
+        transform:translate(-50%,-50%) scale(1);
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:translate(-50%,-50%) scale(4);
+
+        opacity:0;
+
+    }
+
+}
+
+@keyframes statusPulse{
+
+    0%{
+
+        transform:scale(1);
+
+        box-shadow:0 0 5px #00ff88;
+
+    }
+
+    50%{
+
+        transform:scale(1.4);
+
+        box-shadow:
+            0 0 15px #00ff88,
+            0 0 30px #00ff88;
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+        box-shadow:0 0 5px #00ff88;
+
+    }
+
+}
+
+@keyframes profileGlow{
+
+    0%{
+
+        transform:scale(.95);
+
+        opacity:.4;
+
+    }
+
+    50%{
+
+        transform:scale(1.05);
+
+        opacity:.9;
+
+    }
+
+    100%{
+
+        transform:scale(.95);
+
+        opacity:.4;
+
+    }
+
+}
+
+@keyframes blink{
+
+    50%{
+
+        opacity:0;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .profile-image{
+
+        animation:floatMobile 4s ease-in-out infinite;
+
+    }
+
+}
+
+@keyframes floatMobile{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-8px);
+
+    }
+
+}

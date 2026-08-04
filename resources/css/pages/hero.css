@@ -1,0 +1,211 @@
+/* =====================================================
+   HERO SECTION
+===================================================== */
+
+.hero-section {
+
+    background: var(--bg-primary);
+
+    overflow: hidden;
+
+    position: relative;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-top: 80px;
+
+}
+
+
+/* =====================================================
+   HERO CONTENT
+===================================================== */
+
+.hero-greeting {
+
+    color: var(--cyan);
+
+    font-size: 1.2rem;
+
+    font-weight: 500;
+
+    letter-spacing: 2px;
+
+}
+
+.hero-title {
+
+    color: var(--white);
+
+    font-size: 4rem;
+
+    font-weight: 800;
+
+    line-height: 1.1;
+
+    text-shadow: var(--shadow-neon);
+
+}
+
+.hero-subtitle {
+
+    color: var(--cyan);
+
+    min-height: 60px;
+
+    font-size: 2rem;
+
+    font-weight: 600;
+
+}
+
+.hero-description {
+
+    color: var(--gray);
+
+    margin: 1.5rem 0;
+
+    max-width: 600px;
+
+    line-height: 1.8;
+
+}
+
+
+/* =====================================================
+   PROFILE IMAGE
+===================================================== */
+
+.profile-container {
+
+    position: relative;
+
+    display: inline-block;
+
+}
+
+.profile-image {
+
+    width: 350px;
+
+    max-width: 100%;
+
+    border-radius: 50%;
+
+    border: 3px solid var(--cyan);
+
+    box-shadow: var(--shadow-neon);
+
+    animation: float 4s ease-in-out infinite;
+
+}
+
+.hero-greeting{
+    font-family: monospace;
+    color: var(--cyan);
+    font-size: 1.2rem;
+}
+
+.hero-greeting::after{
+    content: "|";
+    animation: blink 1s infinite;
+    margin-left: 5px;
+}
+
+@media (max-width:768px){
+
+    .profile-image{
+
+        width:220px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .hero-image{
+
+        margin:3rem 0;
+
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .hero-section{
+
+        min-height: auto;
+
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+
+    }
+
+}
+
+
+@media (max-width:768px){
+
+    .hero-content{
+
+        text-align:center;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .profile-container{
+
+        margin-top:2.5rem;
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .hero-section{
+
+        min-height:auto;
+
+        padding:7rem 0 5rem;
+
+    }
+
+    .hero-content{
+
+        text-align:center;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .profile-container{
+
+        margin-top:3rem;
+
+    }
+
+    .profile-image{
+
+        width:260px;
+
+    }
+
+}
+
+

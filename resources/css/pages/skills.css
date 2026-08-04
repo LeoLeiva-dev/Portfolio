@@ -1,0 +1,13 @@
+.skill-description{
+
+    color: var(--gray);
+
+    font-size: .9rem;
+
+    line-height: 1.6;
+
+    margin: .8rem 0 1.4rem;
+
+    min-height: 55px;
+
+}

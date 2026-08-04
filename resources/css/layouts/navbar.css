@@ -1,0 +1,155 @@
+body{
+    background:#050816;
+    color:white;
+}
+
+#navbar::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:2px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        var(--cyan),
+        transparent
+    );
+    opacity:0;
+    transition: .4s;
+}
+
+.navbar-scrolled{
+    background: rgba(5,8,22,.92);
+    border-bottom: 1px solid rgba(0,229,255,.5);
+    box-shadow:
+        0 0 15px rgba(0,229,255,.15),
+        0 0 40px rgba(0,229,255,.08);
+}
+
+.navbar-scrolled::after{
+    opacity:1;
+    animation: scan 2.5s infinite linear;
+}
+
+.navbar-scrolled .logo-text{
+    text-shadow: 0 0 15px var(--cyan);
+    animation: glowPulse 2s infinite ease-in-out;
+}
+
+.logo-text{
+    color:#00f5ff !important;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-shadow:
+        0 0 10px #00f5ff,
+        0 0 20px #00f5ff;
+}
+
+.logo-bracket{
+    color:#7df9ff;
+}
+
+.nav-link{
+
+    color:white !important;
+
+    margin-left:15px;
+
+    transition:.3s;
+}
+
+.nav-link:hover{
+
+    color:#00f5ff !important;
+
+    text-shadow:
+        0 0 10px #00f5ff,
+        0 0 20px #00f5ff;
+
+    transform:translateY(-2px);
+}
+
+.navbar-glass{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    background: rgba(5, 8, 22, 0.6);
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+
+    padding: 1rem 0;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    text-decoration: none;
+}
+
+.logo-bracket{
+    color: var(--cyan);
+    transition: var(--transition);
+}
+
+.logo-text{
+    color: var(--white);
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: var(--transition);
+}
+
+.navbar-logo:hover .logo-text{
+    color: var(--cyan);
+    text-shadow: var(--shadow-neon);
+}
+
+.navbar-logo:hover .logo-bracket{
+    color: var(--white);
+}
+
+.navbar-links{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links a{
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition);
+    position: relative;
+}
+
+.navbar-links a:hover{
+    color: var(--cyan);
+    transform: translateY(-1px);
+    letter-spacing: .5px;
+}
+
+.navbar-links a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background: var(--cyan);
+    transition: var(--transition);
+}
+
+.navbar-links a:hover::after{
+    width: 100%;
+}
+

@@ -1,0 +1,31 @@
+@import "./utilities/variables.css";
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@import "./utilities/animations.css";
+@import "./utilities/responsive.css";
+@import "./utilities/utilities.css";
+
+@import "./components/buttons.css";
+@import "./components/cards.css";
+@import "./components/stat-card.css";
+@import "./components/skill-card.css";
+@import "./components/contact-item.css";
+@import "./components/project-card.css";
+@import "./components/section-title.css";
+@import "./components/social-icons.css";
+@import "./components/forms.css";
+@import "./components/badges.css";
+@import "./components/timeline.css";
+
+@import "./layouts/navbar.css";
+@import "./layouts/footer.css";
+
+@import "./pages/hero.css";
+@import "./pages/about.css";
+@import "./pages/skills.css";
+@import "./pages/projects.css";
+@import "./pages/experience.css";
+@import "./pages/certifications.css";
+@import "./pages/contact.css";

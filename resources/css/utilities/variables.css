@@ -1,0 +1,63 @@
+:root{
+
+    /* Backgrounds */
+
+    --bg-primary:#050816;
+
+    --bg-secondary:#0B1120;
+
+    --bg-card:rgba(255,255,255,.05);
+
+
+
+    /* Neon */
+
+    --cyan:#00E5FF;
+
+    --purple:#8B5CF6;
+
+    --blue:#3B82F6;
+
+
+
+    /* Text */
+
+    --white:#F8FAFC;
+
+    --gray:#94A3B8;
+
+
+
+    /* Effects */
+
+    --glass:rgba(255,255,255,.06);
+
+    --border:rgba(255,255,255,.12);
+
+
+
+    --transition:.35s ease;
+
+    /* Border Radius */
+
+    --radius-sm:10px;
+
+    --radius-md:18px;
+
+    --radius-lg:30px;
+
+
+    /* Glow */
+
+    --shadow-neon:
+
+    0 0 15px var(--cyan),
+
+    0 0 35px var(--cyan);
+
+
+    /* Blur */
+
+    --blur:blur(18px);
+
+}

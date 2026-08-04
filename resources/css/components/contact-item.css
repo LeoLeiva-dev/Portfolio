@@ -1,0 +1,73 @@
+.contact-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:1rem;
+
+    padding:1.4rem;
+
+    margin-bottom:1rem;
+
+    background:var(--glass);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius-md);
+
+    backdrop-filter:var(--blur);
+
+    text-decoration:none;
+
+    transition:var(--transition);
+
+}
+
+.contact-card:hover{
+
+    transform:translateX(8px);
+
+    border-color:var(--cyan);
+
+    box-shadow:var(--shadow-neon);
+
+}
+
+.contact-icon{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(0,229,255,.08);
+
+    color:var(--cyan);
+
+    font-size:1.4rem;
+
+}
+
+.contact-info h4{
+
+    color:var(--white);
+
+    margin-bottom:.3rem;
+
+}
+
+.contact-info p{
+
+    color:var(--gray);
+
+    margin:0;
+
+}

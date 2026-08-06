@@ -38,37 +38,31 @@ This project follows the MVC architecture pattern provided by Laravel.
 
 ![Contact](public/screenshots/contact.png)
 
-## ⚙️ Installation
+## 🛠️ Development Environment
 
-Clone the repository:
+This project was developed using:
 
-git clone https://github.com/LeoLeiva-dev/portfolio.git
+- Laravel Herd
+- PHP
+- MySQL
+- DBngin
+- DBeaver
+- Node.js & npm
+- Git & GitHub
 
-Install dependencies:
-
-composer install
-
-npm install
-
-Create environment file:
-
-cp .env.example .env
-
-Generate application key:
-
-php artisan key:generate
-
-Run migrations:
-
-php artisan migrate
-
-Start development server:
-
-php artisan serve
-
-## 👨‍💻 Author
+  ## 👨‍💻 Author
 
 Leonardo Leiva
 
 GitHub:
 https://github.com/LeoLeiva-dev
+
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+
+
+

@@ -24,7 +24,7 @@
                         </div>
 
                         <img
-                            src="{{ asset('img/portada.png') }}"
+                            src="{{ asset('img/leoleiva9.png') }}"
                             alt="Leonardo Leiva"
                             class="img-fluid">
 

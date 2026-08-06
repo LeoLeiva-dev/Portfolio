@@ -48,7 +48,7 @@
 
                 <div class="profile-container">
 
-                    <img src="{{ asset('img/portada.png') }}" class="profile-image">
+                    <img src="{{ asset('img/leoleiva9.png') }}" class="profile-image">
 
                 </div>
 

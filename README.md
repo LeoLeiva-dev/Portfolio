@@ -1,6 +1,8 @@
 # Portfolio Web - Leonardo Leiva
 
-Personal developer portfolio built with Laravel to showcase my projects, skills and experience as a web developer.
+Personal developer portfolio built with Laravel to showcase my projects, technical skills and experience as a web developer.
+
+This project represents my journey as a developer, applying modern web development practices with Laravel and related technologies.
 
 ## 🚀 Technologies
 
@@ -19,22 +21,23 @@ Personal developer portfolio built with Laravel to showcase my projects, skills 
 - Project showcase
 - Contact section
 - Modern UI with custom styling
+- MVC architecture with Laravel
 
 ## 📂 Project Structure
 
-This project follows the MVC architecture pattern provided by Laravel.
+This project follows the MVC (Model-View-Controller) architecture pattern provided by Laravel.
 
 ## 📷 Preview
 
-### About me
+### About Me Section
 
-![Home](public/screenshots/aboutme.png)
+![About Me](public/screenshots/aboutme.png)
 
-### Projects
+### Projects Section
 
 ![Projects](public/screenshots/projects.png)
 
-### Contact
+### Contact Section
 
 ![Contact](public/screenshots/contact.png)
 
@@ -50,19 +53,12 @@ This project was developed using:
 - Node.js & npm
 - Git & GitHub
 
-  ## 👨‍💻 Author
-
-Leonardo Leiva
-
-GitHub:
-https://github.com/LeoLeiva-dev
-
-
 ## ⚙️ Installation
 
 Clone the repository:
 
 ```bash
+git clone https://github.com/LeoLeiva-dev/portfolio.git
 
 
 

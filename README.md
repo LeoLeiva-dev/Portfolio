@@ -24,6 +24,20 @@ Personal developer portfolio built with Laravel to showcase my projects, skills 
 
 This project follows the MVC architecture pattern provided by Laravel.
 
+## 📷 Preview
+
+### About me
+
+![Home](public/screenshots/aboutme.png)
+
+### Projects
+
+![Projects](public/screenshots/projects.png)
+
+### Contact
+
+![Contact](public/screenshots/contact.png)
+
 ## ⚙️ Installation
 
 Clone the repository:
